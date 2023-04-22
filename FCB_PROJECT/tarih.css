@@ -1,0 +1,43 @@
+.tarih img{
+   width: 150px;
+   height: 150px;
+   border-radius: 60%;
+   align-items: center;
+   display: flex;
+}
+
+.tarih {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: url(./photos/tarihtransparan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.tarih p{
+    width: 75%;
+    line-height: 28px;
+    letter-spacing: 1px;
+    box-shadow: 10px 2px 4px gray;
+}
+
+.tarih p::first-letter{
+    font-size: 35px;
+
+}
+
+.tarih h2{
+    border-bottom: 2px solid black;
+}
+
+
+@media(max-width:500px){
+    .tarih{
+        height: auto;
+        margin-top: 3rem;
+    }
+}
